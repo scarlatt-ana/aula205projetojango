@@ -1,5 +1,44 @@
+body{
+    margin:0;
+    background-color: gainsboro;
+}
+
 p{
-    color: brown;
-    font-size: 15pt;
+    color:black;
+    font-size: 12pt;
     font-weight: bold;
 }
+
+
+nav img{
+    height: 10%;
+    width: 10%;
+}
+
+h1{
+    color:black;
+    font-size: 150%;
+}
+
+
+div > img{
+    background-image: url ("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg");
+    background-size: cover;
+    border-top: 100px;
+    display:flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+}
+
+h2{
+  text-align: center;
+    font-size: 18pt;
+}
+
+
+
+
+
+
+
